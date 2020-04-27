@@ -8,12 +8,12 @@
 ## <br>用selenium爬取https://news.qq.com/ 的热点精选
 
 
-'
-import time
-from  selenium import webdriver
-from bs4 import BeautifulSoup
 
-driver=webdriver.Chrome()
+'import time'
+'from  selenium import webdriver'
+'from bs4 import BeautifulSoup'
+
+'driver=webdriver.Chrome()'
 driver.get("https://news.qq.com")
 
 #了解ajax加载
