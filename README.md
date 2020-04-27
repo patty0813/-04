@@ -8,12 +8,12 @@
 ## <br>用selenium爬取https://news.qq.com/ 的热点精选
 
 
-(```)
+```
 import time
-'from  selenium import webdriver'
-'from bs4 import BeautifulSoup'
+from  selenium import webdriver
+from bs4 import BeautifulSoup
 
-'driver=webdriver.Chrome()'
+driver=webdriver.Chrome()
 driver.get("https://news.qq.com")
 
 #了解ajax加载
@@ -44,4 +44,4 @@ for i,jxtit in enumerate(jxtits):
     except:
         print(jxtit)
     print(i+1,",",text,",",url)
-(```)
+```
